@@ -1,4 +1,7 @@
-# 💤 LazyVim
+## 🚀 Quick Install
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+Run this one-liner to back up your current Neovim config and replace it with this setup:
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ljh-wd/nvim-setup/main/install.sh)"
+```
