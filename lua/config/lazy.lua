@@ -16,10 +16,10 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   {
-    "bluz71/vim-nightfly-colors",
+    "rebelot/kanagawa.nvim",
     priority = 1000,
     config = function()
-      vim.cmd([[colorscheme nightfly]])
+      vim.cmd([[colorscheme kanagawa]])
     end,
   },
   spec = {
